@@ -1,0 +1,21 @@
+# to avoid mistakes
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# making docker-compose easier
+alias dc='docker-compose'
+alias dc-logs='docker-compose logs --tail 100 --follow'
+
+# aliases for docker
+alias dps='docker ps --format "table {{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}"'
+
+# k8s aliases
+alias k="kubectl"
+alias mk="minikube"
+
+# npm-do function to help executing npm-modules binaries
+function npm-do { (PATH=$(npm bin):$PATH; eval $@;) }
+
+# easy trivy
+alias trivy="docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v ${HOME}/.cache/trivy:/root/.cache/trivy -v /tmp/trivy:/tmp/trivy aquasec/trivy:0.4.4"
