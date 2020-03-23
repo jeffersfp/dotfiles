@@ -1,0 +1,28 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'JetBrains Mono'",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.scrollBeyondLastLine": false,
+    "terminal.integrated.fontFamily": "'JetBrains Mono'",
+    "editor.minimap.enabled": false,
+    "explorer.autoReveal": false,
+    "python.formatting.provider": "none",
+    "python.linting.lintOnSave": false,
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,,
+    "files.associations": {
+        "Vagrantfile": "ruby"
+    },
+    "vscode_custom_css.imports": [
+        "file:///home/jeffersonp/.config/Code/User/.vscodestyles.css"
+    ],
+    "editor.find.addExtraSpaceOnTop": false,
+    "workbench.colorTheme": "New Moon",
+    "markdown.preview.fontFamily": "'JetBrains Mono'",
+    "markdown.preview.fontSize": 13,
+    "window.zoomLevel": 0.25,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.tabSize": 2
+}
