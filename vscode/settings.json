@@ -13,21 +13,22 @@
     "telemetry.enableCrashReporter": false,
 
     "editor.fontFamily": "Ubuntu Mono",
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
     "editor.scrollBeyondLastLine": false,
     "editor.minimap.enabled": false,
     "editor.find.addExtraSpaceOnTop": false,
     "editor.tabSize": 2,
 
     "markdown.preview.fontFamily": "Ubuntu Mono",
-    "markdown.preview.fontSize": 14,
+    "markdown.preview.fontSize": 15,
 
     "terminal.integrated.fontFamily": "Ubuntu Mono",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 15,
 
     "python.languageServer": "Pylance",
     "python.formatting.provider": "none",
     "python.linting.lintOnSave": false,
+    "python.venvPath": "~/.cache/pypoetry/virtualenvs",
 
     "explorer.autoReveal": false,
 
@@ -40,5 +41,5 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
 
-    "window.zoomLevel": 0.25,
+    "window.zoomLevel": 0.5,
 }
