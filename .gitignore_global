@@ -1,0 +1,4 @@
+.vagrant
+.python-version
+.venv
+.env
